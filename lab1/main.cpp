@@ -1,5 +1,5 @@
 ﻿#include <stdio.h>
-#define MAX_SIZE 100
+#define MAX_SIZE 125
 
 int arr[MAX_SIZE];
 
@@ -11,6 +11,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
+
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -20,6 +21,7 @@ int main() {
             }
         }
     }
+
     printf("Sorted array:\n");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);

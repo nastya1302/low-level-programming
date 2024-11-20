@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "lab1",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-c-Debug-6cfaaeca30fa8dc0629e.json",
 					"name" : "c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "c_a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c_a-Debug-6c56ac17f0d7d06029b1.json",
+					"name" : "c_a",
 					"projectIndex" : 0
 				}
 			]

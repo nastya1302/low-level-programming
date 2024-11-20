@@ -15,3 +15,4 @@ if(MSVC)
 endif()
 
 add_executable(c "main.cpp")
+add_executable(c_a "main_c.cpp")
